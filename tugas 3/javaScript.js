@@ -25,6 +25,7 @@ btnTambah.addEventListener("click", function(){
 
     const optionDone = document.createElement("option");
     optionDone.value = "Done";
+    optionDone.text = "Done";
   
     listBaru.appendChild(span);
     daftarTugas.appendChild(listBaru);
