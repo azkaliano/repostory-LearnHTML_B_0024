@@ -20,7 +20,8 @@ btnTambah.addEventListener("click", function(){
     const selectStatus = document.createElement("select");
 
     const optionProgress = document.createElement("option");
-    
+    optionProgress.value = "Progress";
+    optionProgress.text = "Progress";
   
     listBaru.appendChild(span);
     daftarTugas.appendChild(listBaru);
