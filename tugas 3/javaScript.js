@@ -13,9 +13,9 @@ btnTambah.addEventListener("click", function(){
     spanTugas.innerHTML = inputValue.value;
     spanTugas.className = "teks-tugas";
 
-    const span = document.createElement("span");
-    span.innerHTML = inputValue.value;
-
+    const spanTanggal = document.createElement("span");
+    spanTanggal.innerHTML = " | " + inputTanggal.value + " | ";
+  
     listBaru.appendChild(span);
     daftarTugas.appendChild(listBaru);
     inputValue = "";
