@@ -29,6 +29,10 @@ btnTambah.addEventListener("click", function(){
 
     selectStatus.appendChild(optionProgress);
     selectStatus.appendChild(optionDone);
+
+    const btnEdit = document.createElement("button");
+    btnEdit.innerHTML = "Edit";
+    btnEdit.className = "btn-edit";
   
     listBaru.appendChild(span);
     daftarTugas.appendChild(listBaru);
