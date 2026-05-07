@@ -9,7 +9,10 @@ btnTambah.addEventListener("click", function(){
         return;
     }
 
-    const listBaru = document.createElement("li");
+    const spanTugas = document.createElement("span");
+    spanTugas.innerHTML = inputValue.value;
+    spanTugas.className = "teks-tugas";
+
     const span = document.createElement("span");
     span.innerHTML = inputValue.value;
 
