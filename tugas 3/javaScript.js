@@ -18,6 +18,8 @@ btnTambah.addEventListener("click", function(){
     spanTanggal.className = "teks-tanggal";
 
     const selectStatus = document.createElement("select");
+
+    const optionProgress = document.createElement("option");
     
   
     listBaru.appendChild(span);
