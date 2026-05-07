@@ -15,6 +15,8 @@ btnTambah.addEventListener("click", function(){
 
     const spanTanggal = document.createElement("span");
     spanTanggal.innerHTML = " | " + inputTanggal.value + " | ";
+    spanTanggal.className = "teks-tanggal";
+    
   
     listBaru.appendChild(span);
     daftarTugas.appendChild(listBaru);
