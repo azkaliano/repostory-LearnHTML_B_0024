@@ -33,6 +33,8 @@ btnTambah.addEventListener("click", function(){
     const btnEdit = document.createElement("button");
     btnEdit.innerHTML = "Edit";
     btnEdit.className = "btn-edit";
+    btnEdit.addEventListener("click", function() {
+        const tugasBaru = prompt("Edit tugas:", spanTugas.innerHTML);
   
     listBaru.appendChild(span);
     daftarTugas.appendChild(listBaru);
