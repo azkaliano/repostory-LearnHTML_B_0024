@@ -52,3 +52,10 @@ btnTambah.addEventListener("click", function(){
     inputValue = "";
     inputValue.focus();
 });
+
+
+listBaru.appendChild(spanTugas);
+    listBaru.appendChild(spanTanggal);
+    listBaru.appendChild(selectStatus);
+    listBaru.appendChild(btnEdit);
+    listBaru.appendChild(btnHapus);
